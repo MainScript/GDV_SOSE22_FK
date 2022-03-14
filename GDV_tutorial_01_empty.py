@@ -26,7 +26,7 @@ resized = cv2.resize(color, (100, 100))
 rotated = cv2.rotate(resized, ROTATE_90_CLOCKWISE)
 
 # TODO save image with 'imwrite'
-cv2.imwrite('./edited.jpg', rotated)
+cv2.imwrite('./01edited.jpg', rotated)
 
 # TODO show the image with 'imshow'
 cv2.imshow('IMAGE', rotated)
